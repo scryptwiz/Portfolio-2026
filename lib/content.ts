@@ -88,7 +88,7 @@ export const work: WorkItem[] = [
     role: "Co-founder and founding engineer",
     context: "AI profiles, proposals, and resumes.",
     bullets: [
-      "Co-founder and founding engineer. Led a 3-engineer team, with design, security, and marketing alongside. The product reached 6,500+ active users, and $600 from paying users in beta.",
+      "Co-founder and founding engineer. Led a 3-engineer team, with design, security, and marketing alongside. The product reached 6,500+ active users.",
       "Designed the retrieval layer: embeddings of a curated proposal and profile corpus, so the model writes from real examples.",
       "Owned the React frontend and most of the backend, including Polar payments, verified webhooks, device-bound sessions, and DNS-level email protections.",
     ],
