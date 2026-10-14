@@ -51,7 +51,7 @@ export const work: WorkItem[] = [
     name: "Omenai",
     when: "Nov 2025 — Sep 2026",
     role: "Software engineer",
-    context: "Art marketplace. APIs, web, and mobile.",
+    context: "Art marketplace. APIs, web, and mobile. Remote, United States.",
     bullets: [
       "Owned artwork editing across the API, web, and mobile, including role-based pricing for artists and galleries. About 30–50 artists and a partner gallery use it.",
       "Fixed a production bug in the third-party shipping rate API in 30 minutes and unblocked a stalled $5K order.",
@@ -127,7 +127,7 @@ export const experience = [
     when: "Nov 2025 — Sep 2026",
     title: "Software engineer",
     company: "Omenai",
-    summary: "Art marketplace across API, web, and mobile. Shipping rates, feed performance, AR gallery.",
+    summary: "Art marketplace across API, web, and mobile. Remote, United States. Shipping rates, feed performance, AR gallery.",
   },
   {
     when: "Aug 2025 — Aug 2026",
