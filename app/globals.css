@@ -34,6 +34,12 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -61,9 +67,65 @@ body {
   scroll-margin-top: 5.5rem;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  html.has-cursor,
+  html.has-cursor * {
+    cursor: none !important;
+  }
+}
+
+.cursor {
+  display: none;
+}
+
+html.has-cursor .cursor {
+  display: block;
+}
+
+.cursor-dot,
+.cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.cursor.is-on .cursor-dot,
+.cursor.is-on .cursor-ring {
+  opacity: 1;
+}
+
+.cursor-dot {
+  width: 7px;
+  height: 7px;
+  margin: -3.5px 0 0 -3.5px;
+  border-radius: 999px;
+  background: var(--oxide);
+}
+
+.cursor-ring span {
+  display: block;
+  width: 34px;
+  height: 34px;
+  margin: -17px 0 0 -17px;
+  border: 1px solid var(--oxide);
+  border-radius: 999px;
+  transition:
+    transform 280ms ease,
+    background-color 280ms ease;
+}
+
+.cursor-ring.is-hot span {
+  transform: scale(1.65);
+  background: color-mix(in srgb, var(--oxide) 14%, transparent);
+}
+
 @media print {
   header,
-  .no-print {
+  .no-print,
+  .cursor {
     display: none !important;
   }
 

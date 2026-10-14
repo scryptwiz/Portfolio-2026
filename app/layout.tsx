@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Cursor } from "@/components/cursor";
 import { Header } from "@/components/header";
 import { profile } from "@/lib/content";
 import { getSiteUrl } from "@/lib/site";
@@ -98,6 +99,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </a>
         <Header />
         {children}
+        <Cursor />
         <SpeedInsights />
         <script
           type="application/ld+json"
