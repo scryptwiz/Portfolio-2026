@@ -42,6 +42,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
+  verification: {
+    google: "vsCiv40e66gbbcUBiaWPnE0MrqbyPKIzj98E0uf3QLA",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
