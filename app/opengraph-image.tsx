@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { ImageResponse } from "next/og";
 
-export const alt = "Kelvin Ajayi, software engineer. Open to full-time mobile and fullstack roles, and an AI engineering internship.";
+export const alt = "Kelvin Ajayi, software engineer. A robotics enthusiast working in AI, mobile, and backend.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -64,7 +64,7 @@ export default async function OpenGraphImage() {
                 color: "#4a463f",
               }}
             >
-              Full-time mobile and fullstack. An AI engineering internship.
+              Robotics enthusiast. AI, mobile, and backend.
             </div>
           </div>
           <div style={{ display: "flex", alignItems: "center" }}>

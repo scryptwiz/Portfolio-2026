@@ -6,8 +6,8 @@ export const profile = {
   email: "kelvide7@gmail.com",
   phone: "+234 814 131 6786",
   summary:
-    "I build production web, mobile, and AI products, and I own them from the API through to the client. Five years of that, for teams in the US, Australia, India, and Nigeria.",
-  aim: "I am in week 7 of an 8-week LLM engineering course. The long aim is forward deployed engineering: join a customer's system and make a model useful there.",
+    "I ship production mobile, backend, and AI systems, and I own them from the API through to the client. Five years of that, for teams in the US, Australia, India, and Nigeria.",
+  aim: "I am interested in robotics and autonomous systems. That is where software, hardware, and intelligence meet.",
   links: {
     email: "mailto:kelvide7@gmail.com",
     phone: "tel:+2348141316786",
@@ -21,15 +21,15 @@ export const profile = {
 export const hiring = [
   {
     label: "Now",
-    value: "Full-time mobile and fullstack, and an AI engineering internship",
+    value: "Mobile, backend, AI engineering, and fullstack",
   },
   {
     label: "Based",
     value: "Nigeria, working remote",
   },
   {
-    label: "Studying",
-    value: "LLM engineering, week 7 of 8",
+    label: "Focus",
+    value: "Robotics and applied AI",
     href: "#direction",
   },
 ];
@@ -53,9 +53,10 @@ export const work: WorkItem[] = [
     role: "Software engineer",
     context: "Art marketplace. APIs, web, and mobile. Remote, United States.",
     bullets: [
-      "Owned artwork editing across the API, web, and mobile, including role-based pricing for artists and galleries. About 30–50 artists and a partner gallery use it.",
+      "Owned artwork editing across the API, web, and mobile, including role-based pricing for artists and galleries. About 30 artists and a partner gallery use it.",
       "Fixed a production bug in the third-party shipping rate API in 30 minutes and unblocked a stalled $5K order.",
       "Rebuilt the media-heavy feed so it holds a stable 60 FPS, up from about 24–30, with faster loads.",
+      "Integrated an AI support assistant on web and mobile. It answers questions that already have answers, and opens a ticket only when they do not.",
       "Set up QA across web and mobile, including pre-deployment API tests, plus API and app security checks.",
       "Automated iOS and Android releases with GitHub Actions and EAS, and built an AR viewer plus a museum-style gallery with true aspect ratios.",
     ],
@@ -99,13 +100,13 @@ export const work: WorkItem[] = [
     index: "04",
     name: "Lexicon",
     when: "Feb 2025 — Jun 2025",
-    role: "Next.js developer, WebbyWolf",
+    role: "Owned the product, WebbyWolf",
     context: "An AI article generator. Remote, India.",
     bullets: [
-      "Built 95% of thelexicon.ai on Next.js, Supabase, the OpenAI API, and Tailwind CSS.",
-      "Shipped subscription access with Dodo Payments and the interface motion with Framer Motion.",
+      "Owned the build of thelexicon.ai on Next.js, Supabase, and the OpenAI API.",
+      "Shipped subscription-based access control, and the interface motion with Framer Motion.",
     ],
-    stack: ["Next.js", "Supabase", "OpenAI", "Tailwind CSS", "Dodo Payments"],
+    stack: ["Next.js", "Supabase", "OpenAI", "Framer Motion"],
   },
   {
     index: "05",
@@ -127,7 +128,7 @@ export const experience = [
     when: "Nov 2025 — Sep 2026",
     title: "Software engineer",
     company: "Omenai",
-    summary: "Art marketplace across API, web, and mobile. Remote, United States. Shipping rates, feed performance, AR gallery.",
+    summary: "Art marketplace across API, web, and mobile. Remote, United States. Shipping rates, feed performance, AR gallery, and an AI support assistant.",
   },
   {
     when: "Aug 2025 — Aug 2026",
@@ -143,9 +144,9 @@ export const experience = [
   },
   {
     when: "Feb 2025 — Jun 2025",
-    title: "Next.js developer",
+    title: "Owned the product",
     company: "WebbyWolf",
-    summary: "Fullstack build of thelexicon.ai, an AI article generator.",
+    summary: "Owned the build of thelexicon.ai, an AI article generator.",
   },
   {
     when: "Jan 2023 — Feb 2025",
@@ -305,13 +306,18 @@ export const stack = [
 
 export const credentials = [
   {
-    name: "LLM Engineering",
-    source: "Edward Donner",
-    status: "In progress",
-    detail:
-      "Week 7 of an 8-week course on building with large language models. The notes and exercises live in a public repo.",
-    href: "https://github.com/scryptwiz/llm_engineering",
-    progress: 7,
-    total: 8,
+    name: "AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents",
+    source: "Udemy · Ed Donner and Ligency",
+    status: "Complete",
+    links: [
+      {
+        label: "Certificate",
+        href: "https://ude.my/UC-4aab99d5-dd80-4fe3-aa22-0dd000abbd76",
+      },
+      {
+        label: "Course repo",
+        href: "https://github.com/scryptwiz/llm_engineering",
+      },
+    ],
   },
 ];

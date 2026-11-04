@@ -22,7 +22,7 @@ const plexMono = IBM_Plex_Mono({
 const siteUrl = getSiteUrl();
 const title = "Kelvin Ajayi — Software engineer";
 const description =
-  "Software engineer in Nigeria, open to full-time mobile and fullstack roles and an AI engineering internship.";
+  "Software engineer in Nigeria. A robotics enthusiast working in AI, mobile, and backend.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -34,9 +34,10 @@ export const metadata: Metadata = {
   keywords: [
     "Kelvin Ajayi",
     "software engineer",
+    "AI engineer",
+    "robotics",
     "mobile engineer",
-    "fullstack engineer",
-    "AI engineering internship",
+    "backend engineer",
     "React Native",
     "Nigeria",
   ],
