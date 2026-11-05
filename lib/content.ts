@@ -86,10 +86,10 @@ export const work: WorkItem[] = [
     index: "03",
     name: "Provolo",
     when: "Aug 2025 — Aug 2026",
-    role: "Co-founder and founding engineer",
+    role: "Lead engineer",
     context: "AI profiles, proposals, and resumes.",
     bullets: [
-      "Co-founder and founding engineer. Led a 3-engineer team, with design, security, and marketing alongside. The product reached 6,500+ active users.",
+      "Led a 3-engineer team, with design, security, and marketing alongside. The product reached 6,500+ active users.",
       "Designed the retrieval layer: embeddings of a curated proposal and profile corpus, so the model writes from real examples.",
       "Owned the React frontend and most of the backend, including Polar payments, verified webhooks, device-bound sessions, and DNS-level email protections.",
     ],
@@ -132,7 +132,7 @@ export const experience = [
   },
   {
     when: "Aug 2025 — Aug 2026",
-    title: "Co-founder and founding engineer",
+    title: "Lead engineer",
     company: "Provolo",
     summary: "AI career platform. Retrieval over real proposals. 6,500+ active users.",
   },
